@@ -1,4 +1,4 @@
-public import java.util.Scanner;
+import java.util.Scanner;
 
 public class primeN {
     public static void main(String[]args){
