@@ -7,6 +7,9 @@ public class palindrome {
         int n=sc.nextInt();
         int temp=n;
         int rev=0,rem;
+        if(n<0){
+            System.out.println(n +" is not a plaindrome number");
+        }
         while(temp!=0){
             rem=temp%10;
             rev=rev*10+rem;
